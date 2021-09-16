@@ -1,9 +1,9 @@
 import { createStore, combineReducers, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
-import marketReducer from './markets/markets';
+import covidReducer from './markets/markets';
 
 const rootReducer = combineReducers({
-  marketReducer,
+  covidReducer,
 });
 
 const store = createStore(

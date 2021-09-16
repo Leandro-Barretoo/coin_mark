@@ -1,19 +1,19 @@
-const ADD_MARKET = 'coinMark/markets/ADD_MARKET';
+const ADD_COVID = 'coinMark/markets/ADD_MARKET';
 
 const initialState = [];
 
-export const addMarket = (payload) => ({
-  type: ADD_MARKET,
+export const addCovidData = (payload) => ({
+  type: ADD_COVID,
   payload,
 });
 
-const marketReducer = (state = initialState, action) => {
+const covidReducer = (state = initialState, action) => {
   switch (action.type) {
-    case ADD_MARKET:
+    case ADD_COVID:
       return [...state, action.payload];
     default:
       return state;
   }
 };
 
-export default marketReducer;
+export default covidReducer;
