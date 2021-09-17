@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
+import './Homepage.css';
 import { addCovidData } from '../redux/markets/markets';
 
 const Homepage = () => {
@@ -22,9 +23,9 @@ const Homepage = () => {
   }, []);
 
   const myCovidData = covidList.map((covid) => (
-    <div key={covid.code}>
-      <div>
-        <Link to={{ pathname: '/details', state: covid }}>
+    <div className="Country-Data" key={covid.code}>
+      <div className="Country-Card">
+        <Link className="Country-Link" to={{ pathname: '/details', state: covid }}>
           {covid.name}
         </Link>
       </div>
@@ -32,9 +33,12 @@ const Homepage = () => {
   ));
 
   return (
-    <div>
-      { myCovidData }
-    </div>
+    <>
+      <div className="Country-Nav">STATS BY COUNTRY</div>
+      <div className="Countries-Cont">
+        { myCovidData }
+      </div>
+    </>
   );
 };
 

@@ -1,0 +1,20 @@
+.Stats-Title {
+  display: block;
+  background-color: #376093;
+  color: #fff;
+  font-weight: bold;
+  padding: 3px 10px;
+  letter-spacing: 0.5px;
+  font-size: 0.8em;
+}
+
+.Stats-Entrie {
+  background-color: #398ff0;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-weight: bold;
+}
