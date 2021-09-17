@@ -11,6 +11,4 @@ const store = createStore(
   applyMiddleware(thunk),
 );
 
-window.store = store;
-
 export default store;
