@@ -29,12 +29,34 @@ const Homepage = () => {
           {covid.name}
         </Link>
       </div>
+      <div className="Population">
+        Pop:&nbsp;
+        {covid.population}
+      </div>
     </div>
   ));
+
+  const findCountry = () => {
+    let textData = '';
+    const input = document.getElementById('myCountry');
+    const filter = input.value.toUpperCase();
+    const list = document.getElementsByClassName('Country-Data');
+
+    [...list].forEach((country) => {
+      const temp = country;
+      textData = temp.textContent || temp.innerText;
+      if (textData.toUpperCase().indexOf(filter) > -1) {
+        temp.style.display = '';
+      } else {
+        temp.style.display = 'none';
+      }
+    });
+  };
 
   return (
     <>
       <div className="Country-Nav">STATS BY COUNTRY</div>
+      <input className="Search" type="text" id="myCountry" onKeyUp={findCountry} placeholder="Search country.." />
       <div className="Countries-Cont">
         { myCovidData }
       </div>
