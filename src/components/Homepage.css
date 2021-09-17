@@ -20,6 +20,9 @@
   background-color: #398ff0;
   border-radius: 5px;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .Country-Link {
@@ -41,4 +44,9 @@
 
 .Search:focus {
   outline: none;
+}
+
+.Population {
+  color: #376093;
+  font-size: 0.8em;
 }

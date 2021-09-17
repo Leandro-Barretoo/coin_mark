@@ -29,6 +29,10 @@ const Homepage = () => {
           {covid.name}
         </Link>
       </div>
+      <div className="Population">
+        Pop:&nbsp;
+        {covid.population}
+      </div>
     </div>
   ));
 
