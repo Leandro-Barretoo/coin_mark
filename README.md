@@ -20,8 +20,7 @@ It is a Single Page App (SPA) that allows users to:
 
 ## Live Demo
 
-[Heroku](https://math--magicians.herokuapp.com/)
-[Netlify](https://flamboyant-bartik-871645.netlify.app/)
+[Netlify](https://coronawide.netlify.app/)
 
 ## Getting Started
 
