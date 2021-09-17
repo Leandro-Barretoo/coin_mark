@@ -18,7 +18,7 @@ const Nav = (props) => {
         <span className="Logo">CoronaWide</span>
       </div>
       <div className="Slogan-Cont">
-        <img className="Logo" src={logo} alt="covid logo" />
+        <img className="Logo-Img" src={logo} alt="covid logo" />
         {name && (
           <span className="Slogan">{name}</span>
         )}
