@@ -35,6 +35,7 @@ const Homepage = () => {
   return (
     <>
       <div className="Country-Nav">STATS BY COUNTRY</div>
+      <input className="Search" type="text" id="myCountry" onKeyUp="findCountry()" placeholder="Search country.." />
       <div className="Countries-Cont">
         { myCovidData }
       </div>
