@@ -14,7 +14,7 @@ const App = () => (
         <Nav display="None" />
         <Homepage />
       </Route>
-      <Route path="/details">
+      <Route path="/details/:country">
         <Nav display="Block" />
         <Details />
       </Route>

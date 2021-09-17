@@ -25,7 +25,7 @@ const Homepage = () => {
   const myCovidData = covidList.map((covid) => (
     <div className="Country-Data" key={covid.code}>
       <div className="Country-Card">
-        <Link className="Country-Link" to={{ pathname: '/details', state: covid }}>
+        <Link className="Country-Link" to={{ pathname: `/details/${covid.name}`, state: covid }}>
           {covid.name}
         </Link>
       </div>
