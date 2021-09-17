@@ -10,6 +10,10 @@
 It is a Single Page App (SPA) that allows users to:
     -> Search country to get up to date data about covid 19.
     -> Every country as is own further details
+    
+## Project presentation
+
+[Presentation video](https://www.loom.com/share/947363dba4b94a3c92f74da4bcb82598)
 
 ## Built With
 
