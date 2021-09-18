@@ -1,59 +1,49 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# CoronaWide
 
-> One paragraph statement about the project.
+"CoronaWide" is a website that display the world statistics for covid-19.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./src/assets/homepage.png)
+![screenshot](./src/assets/detailspage.png)
 
-Additional description about the project and its features.
+It is a Single Page App (SPA) that allows users to:
+    -> Search country to get up to date data about covid 19.
+    -> Every country as is own further details
+    
+## Project presentation
+
+[Presentation video](https://www.loom.com/share/947363dba4b94a3c92f74da4bcb82598)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML5, CSS3
+- JavaScript
+- React
+- Redux
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+[Netlify](https://coronawide.netlify.app/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
 
 ### Setup
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- Clone the repo `git clone git@github.com:Leandro-Barretoo/coin_mark.git`
+- `cd` into the directory
+- run `npm i` or `npm install` to download required node_modules
+- open in your desired code editor
+- run `npm start` to start live server
 
 ## Authors
 
-👤 **Author1**
+👤 **Leandro Barreto**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Leandro-Barretoo](https://github.com/Leandro-Barretoo)
+- LinkedIn: [Leandro Barreto](https://linkedin.com/in/leandroobarreto/)
 
 ## 🤝 Contributing
 
